@@ -26,6 +26,15 @@ scripts:
 #- //cdn.bootcss.com/zepto/1.2.0/zepto.min.js
 #- /js/xoxo.js
 
+#RSS订阅
+plugin:
+- hexo-generator-feed
+#Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
+
 # switch
 show_excerpt: true
 show_date: true

@@ -35,6 +35,9 @@ type: atom
 path: atom.xml
 limit: 20
 
+# Swiftype Search Key
+swiftype_key: 4_6JkpTig9fy9ji6yKnj
+
 # switch
 show_excerpt: true
 show_date: true

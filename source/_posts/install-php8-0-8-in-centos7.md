@@ -14,12 +14,12 @@ Linux version 3.10.0-327.el7.x86_64 (builder@kbuilder.dev.centos.org) (gcc versi
 CentOS Linux release 7.2.1511 (Core)
 ```
 
-安装php-8.0.
+安装php-8.0.8
 
 ```
 wget https://www.php.net/distributions/php-8.0.8.tar.gz
-tar -zxvf php-8.0.6.tar.gz
-cd php-8.0.6
+tar -zxvf php-8.0.8.tar.gz
+cd php-8.0.8
 #编译Makefile并开启一些必要的插件
 ./configure --prefix=/usr/local/php-8.0.8 --with-mysqli --with-pdo-mysql --with-zlib --enable-simplexml --enable-xml --disable-rpath --enable-bcmath --enable-soap --with-curl --enable-fpm --with-fpm-user=nobody --with-fpm-group=nobody --enable-mbstring --enable-sockets --with-openssl --with-mhash --enable-opcache --disable-fileinfo –-with-readline
 make && make install

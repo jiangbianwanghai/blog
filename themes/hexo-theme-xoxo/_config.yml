@@ -6,10 +6,10 @@ language: zh-Hans
 menu:
   home: /
   archives: /archives
-  tags: /tags
+  #tags: /tags
   #categories: /categories
-  search: /search
-  about: https://www.jiangbianwanghai.com
+  #search: /search
+  about: /about
   rss: /atom.xml
 
 # Miscelaneous
@@ -34,9 +34,6 @@ feed:
 type: atom
 path: atom.xml
 limit: 20
-
-# Swiftype Search Key
-swiftype_key: 4_6JkpTig9fy9ji6yKnj
 
 # switch
 show_excerpt: true

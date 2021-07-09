@@ -10,7 +10,7 @@ menu:
   #categories: /categories
   #search: /search
   about: /about
-  rss: /atom.xml
+  #rss: /atom.xml
 
 # Miscelaneous
 favicon: /logo.png

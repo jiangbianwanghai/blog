@@ -1016,3 +1016,13 @@ code {
 }
 
 /*# sourceMappingURL=xoxo.css.map */
+.index-avatar{
+  background-image: url(https://www.jiangbianwanghai.com/img/2017.jpg);background-size:cover;background-position: center center;width:128px;height:128px;border-radius:128px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.index-title{
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}

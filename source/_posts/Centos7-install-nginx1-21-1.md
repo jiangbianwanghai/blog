@@ -105,7 +105,7 @@ ps aux | grep nginx
 
 启动成功后，在浏览器可以看到如下页面：
 
-![nginx](https://www.jiangbianwanghai.com/static/img/nginx.png "启动成功看到的画面")
+![nginx](https://www.jiangbianwanghai.com/img/nginx.png "启动成功看到的画面")
 
 ##### 五、开机自启动
 

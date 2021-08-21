@@ -1,7 +1,7 @@
 ---
 title: 在Centos7安装nginx1.21.1
 date: 2021-08-18 09:33:54
-tags:
+tags: ["nginx", "centos7", "源码安装"]
 ---
 
 ##### 一、安装准备

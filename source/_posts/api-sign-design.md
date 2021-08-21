@@ -1,7 +1,7 @@
 ---
-title: api sign design
+title: API签名设计
 date: 2021-07-23 11:17:03
-tags:
+tags: ["api", "设计思路"]
 ---
 
 一. url请求的参数包括：timestamp，token, username，sign

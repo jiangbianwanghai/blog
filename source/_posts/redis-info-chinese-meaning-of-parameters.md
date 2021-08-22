@@ -12,29 +12,29 @@ redis_version:5.0.5 #redis的版本是5.0.5
 redis_git_sha1:abc22daa Redis版本的哈希值
 redis_git_dirty:1
 redis_build_id:3ebe553cd2fe33fd
-redis_mode:standalone
-os:Linux
-arch_bits:64
-multiplexing_api:epoll
+redis_mode:standalone #运行模式：单机（集群）
+os:Linux #操作系统
+arch_bits:64 #操作系统位数
+multiplexing_api:epoll #redis所使用的事件处理机制
 atomicvar_api:atomic-builtin
-gcc_version:0.0.0
-process_id:11296
+gcc_version:0.0.0 #gcc版本号
+process_id:11296 #当前 Redis 服务器进程id
 run_id:776c1721d5319d2e9fb9f776b2e04b5374ea1b83
-tcp_port:6379
-uptime_in_seconds:20634790
-uptime_in_days:238
+tcp_port:6379  #端口号
+uptime_in_seconds:20634790 #运行时间(秒)
+uptime_in_days:238 #运行时间(天)
 hz:10
 configured_hz:10
-lru_clock:2117525
+lru_clock:2117525 #Redis的逻辑时钟
 executable:
 config_file:
 support_ptod:1
 
 # Clients
-connected_clients:14
+connected_clients:14 #连接的客户端数量
 client_recent_max_input_buffer:4
 client_recent_max_output_buffer:0
-blocked_clients:0
+blocked_clients:0 #阻塞的客户端数量
 
 # Memory
 used_memory:79262664 #使用内存（B）

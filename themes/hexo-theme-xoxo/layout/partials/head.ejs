@@ -5,7 +5,7 @@ if (is_tag()) pageTitle = 'tag: ' + page.tag;
 if (is_category()) pageTitle = 'category: ' + page.category;
 if (is_month()) pageTitle += ': ' + page.month + '/' + page.year;
 if (is_year()) pageTitle += ': ' + page.year;
-pageTitle += ' [ ' + config.title + ' ]';
+pageTitle += config.title;
 if (is_home()) pageTitle+= config.subtitle;
 %>
 

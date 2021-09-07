@@ -11,4 +11,4 @@ date: 2021-07-08 19:07:38
 你可以免费阅读本博客的所有内容，也欢迎你通过不同的渠道进行赞赏。最简单的赞赏方式是发送一封感谢信到我的 Email (jiangbianwanghai@gmail.com). 在每篇文章的下方都有我的微信，如果你觉得文章写的不错，对你有用，请自愿打赏。
 
 扫码加微信
-<p style="text-align: center;"><img src="https://i.loli.net/2021/07/13/krQaBisIG5jRH7X.jpg" width="64" height="64" /></p>
+<p style="text-align: center;"><img src="https://i.loli.net/2021/07/13/krQaBisIG5jRH7X.jpg" width="200" height="200" /></p>

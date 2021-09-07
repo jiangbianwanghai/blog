@@ -85,20 +85,20 @@ instantaneous_write_ops_per_sec:2981
 instantaneous_read_ops_per_sec:2987
 total_net_input_bytes:174080973852 #网络入口流量字节数
 total_net_output_bytes:465560453466 #网络出口流量字节数
-instantaneous_input_kbps:152.13
-instantaneous_output_kbps:44.70
-rejected_connections:0
+instantaneous_input_kbps:152.13 # 网络入口kps
+instantaneous_output_kbps:44.70 # 网络出口kps
+rejected_connections:0 # 拒绝的连接个数，由于maxclients限制，拒绝新连接的个数
 rejected_connections_status:0
-sync_full:2
-sync_partial_ok:1
-sync_partial_err:1
-expired_keys:8691520
+sync_full:2 # 主从完全同步成功次数
+sync_partial_ok:1 # 主从部分同步成功次数
+sync_partial_err:1 # 主从部分同步失败次数
+expired_keys:8691520 # 自启动起过期的key的总数
 expired_stale_perc:0.00
 expired_time_cap_reached_count:0
-evicted_keys:779165
+evicted_keys:779165 # 使用内存大于maxmemory后，淘汰的key的总数
 evicted_keys_per_sec:0
-keyspace_hits:48424220
-keyspace_misses:15231242
+keyspace_hits:48424220 # 在main dictionary字典中成功查到的key个数
+keyspace_misses:15231242 # 同上，未命中的key的个数
 hits_per_sec:4
 misses_per_sec:0
 hit_rate_percentage:100.00
